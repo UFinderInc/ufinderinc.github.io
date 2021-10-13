@@ -117,3 +117,33 @@ h2::after {
         transform: translateY(0);
     }
 }
+
+
+.features {
+    background-image: linear-gradient(rgba(52, 73, 94, 1),rgba(52, 73, 94, 1));
+    margin-left: 40px;
+    margin-right: 40px;
+    color: white;
+    
+}
+h1.features {
+    margin-top: 50px;
+    background-color:white;
+    
+}
+h2.features{
+    padding: 25 25;
+    padding-top: 20px;
+}    
+p.features {
+    padding-top: 20px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+ul.features{
+    padding-left: 50px;
+}
+ul.features li{
+    padding-top: 10px;
+}
