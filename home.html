@@ -1,5 +1,7 @@
+
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta name="viewport" content="with=device-width, initial-scale=1.0" />
     <title>Ufinder</title>
@@ -7,29 +9,46 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-    <img width="1500" height="1">
-    <section class="header">
-        <nav>
-            <a href="index.html"><img src="Images/LogoUFinder.png" /></a>
-            <dic class="nav-links">
-                <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">PRODUCT</a></li>
-                    <li><a href="">FEATURES</a></li>
-                    <li><a href="">ABOUT</a></li>
-                </ul>
-            </dic>
-        </nav>
-    
-    <div class="text-box">
-        <h1>Don't let your future</h1>
-        <h1>control you.</h1>
-        <h2>Control it instead.</h2>
-    </div>
-    
-    </section>
+    <div id="loader-wrapper">
+        <div id="loader"></div>
 
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+
+    </div>
+    <div class="content">
+        <section class="header">
+            <nav>
+                <a href="index.html"><img src="Images/LogoUFinder.png" /></a>
+                <dic class="nav-links">
+                    <ul>
+                        <li><a href="">HOME</a></li>
+                        <li><a href="">PRODUCT</a></li>
+                        <li><a href="">FEATURES</a></li>
+                        <li><a href="">ABOUT</a></li>
+                    </ul>
+                </dic>
+            </nav>
+
+            <div class="text-box">
+                <h1>Don't let your future</h1>
+                <h1>control you.</h1>
+                <h2>Control it instead.</h2>
+            </div>
+        </section>
+    </div>
+    <script>
+        $(document).ready(function () {
+
+            // Fakes the loading setting a timeout
+            setTimeout(function () {
+                $('body').addClass('loaded');
+            }, 3000);
+
+        });
+    </script>
 </body>
 </html>
