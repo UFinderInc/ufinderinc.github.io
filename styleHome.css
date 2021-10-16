@@ -118,6 +118,7 @@ h2::after {
         transform: translateY(0);
     }
 }
+<<<<<<< HEAD
 #content {
     margin: 0 auto;
     padding-bottom: 50px;
@@ -242,6 +243,8 @@ h2::after {
     transition: all 0.3s 1s ease-out;
 }
 
-@keyframes slideout{
-    to{ left: 100%; }
+@keyframes slideout {
+    to {
+        left: 100%;
+    }
 }
