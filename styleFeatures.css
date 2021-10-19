@@ -47,14 +47,14 @@ nav img{
 .features {
     background-image: linear-gradient(rgba(52, 73, 94, 1),rgba(52, 73, 94, 1));
     margin-left: 40px;
-    margin-right: 40px;
+    margin-right: 300px;
     color: white;
     
 }
 h1.features {
     margin-top: 50px;
     background-color:white;
-    
+    font-size: 60px;
 }
 h2.features{
     padding: 25 25;
@@ -72,4 +72,40 @@ ul.features{
 }
 ul.features li{
     padding-top: 10px;
+}
+#assignment_turned_in{
+    position:fixed;
+    left:485px;
+    top: 296px;
+}
+#announcement{
+    position:fixed;
+    left:310px;
+    top: 332px;
+}
+#description{
+    position:fixed;
+    left:470px;
+    top: 365px;
+}
+#label_important{
+    position:fixed;
+    left:413px;
+    top: 402px;
+}
+div.featuresList{
+    position: relative;
+    left: -500px;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 1s;
+    animation: slide 0.5s forwards;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes slide {
+    100% { left: 0; }
+}
+
+@keyframes slide {
+    100% { left: 0; }
 }
