@@ -49,7 +49,7 @@ nav img{
     margin-left: 40px;
     margin-right: 300px;
     color: white;
-    
+
 }
 h1.features {
     margin-top: 50px;
@@ -57,14 +57,10 @@ h1.features {
     font-size: 60px;
 }
 h2.features{
-    padding: 25 25;
-    padding-top: 20px;
-}    
+    padding: 20px 25px 25px;
+}
 p.features {
-    padding-top: 20px;
-    padding-right: 40px;
-    padding-bottom: 20px;
-    padding-left: 0px;
+    padding: 20px 40px 20px 0px;
     font-family: 'Poppins', sans-serif;
 }
 ul.features{
