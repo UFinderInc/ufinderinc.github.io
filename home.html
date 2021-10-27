@@ -1,54 +1,70 @@
-
 <!DOCTYPE html>
 <html>
 
 <head>
-    <meta name="viewport" content="with=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="with=device-width, initial-scale=1.0"/>
     <title>Ufinder</title>
-    <link rel="stylesheet" href="assets/css/styleHome.css" />
+    <link rel="stylesheet" href="assets/css/styleHome.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+          rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
-    <div id="loader-wrapper">
-        <div id="loader"></div>
+<div id="loader-wrapper">
+    <div id="loader"></div>
 
-        <div class="loader-section section-left"></div>
-        <div class="loader-section section-right"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
 
-    </div>
-    <div class="content">
-        <section class="header">
-            <nav>
-                <a href="index.html"><img src="assets/img/LogoUFinder.png" /></a>
-                <dic class="nav-links">
-                    <ul>
-                        <li><a href="">HOME</a></li>
-                        <li><a href="">PRODUCT</a></li>
-                        <li><a href="">FEATURES</a></li>
-                        <li><a href="">ABOUT</a></li>
-                    </ul>
-                </dic>
-            </nav>
+</div>
+<div class="content">
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="assets/img/LogoUFinder.png"/></a>
+            <dic class="nav-links">
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">PRODUCT</a></li>
+                    <li><a href="">FEATURES</a></li>
+                    <li><a href="">ABOUT</a></li>
+                </ul>
+            </dic>
+        </nav>
+        <div class="text-box">
+            <h1>Don't let your future</h1>
+            <h1>control you.</h1>
+        </div>
+        <video id="presentation" src="assets/video/SEG%20final.mp4" autoplay></video>
+        <div class="text-box">
+            <h2 id="control"></h2>
+        </div>
+    </section>
+</div>
+<script>
+    $(document).ready(function () {
 
-            <div class="text-box">
-                <h1>Don't let your future</h1>
-                <h1>control you.</h1>
-                <h2>Control it instead.</h2>
-            </div>
-        </section>
-    </div>
-    <script>
-        $(document).ready(function () {
+        // Fakes the loading setting a timeout
+        setTimeout(function () {
+            $('body').addClass('loaded');
+        }, 3000);
+        const vid = document.getElementById("presentation");
+        vid.onclick = function() {
+            typeWriter();
+        };
+        let i = 0;
+        let txt = 'Control it instead.';
+        let speed = 70;
 
-            // Fakes the loading setting a timeout
-            setTimeout(function () {
-                $('body').addClass('loaded');
-            }, 3000);
-
-        });
-    </script>
+        function typeWriter() {
+            if (i < txt.length) {
+                document.getElementById("control").innerHTML += txt.charAt(i);
+                i++;
+                setTimeout(typeWriter, speed);
+            }
+        }
+    });
+</script>
 </body>
 </html>
