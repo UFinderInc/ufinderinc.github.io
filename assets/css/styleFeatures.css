@@ -57,17 +57,20 @@ h1.features {
     font-size: 60px;
 }
 h2.features{
-    padding: 20px 25px 25px;
+    padding-top: 3px;
+    font-size: 32px
 }
 p.features {
-    padding: 20px 40px 20px 0px;
+    padding: 20px 0px 5px 0px;
     font-family: 'Poppins', sans-serif;
+    font-size: 20px
+    ;
 }
 ul.features{
     padding-left: 50px;
 }
 ul.features li{
-    padding-top: 10px;
+    padding-top: 7px;
 }
 #assignment_turned_in{
     position:fixed;
