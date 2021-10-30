@@ -77,6 +77,10 @@ body {
     place-content: center;
     text-align: center;
 }
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
 .text-box {
     width: 100%;
     position: absolute;

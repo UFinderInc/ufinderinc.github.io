@@ -164,11 +164,17 @@
 
     <script>
         $(document).ready(function () {
+            setTimeout(function () {
+                window.scrollTo(0, 0);
+            }, 1);
+            $('body').addClass('stop-scrolling');
 
             // Fakes the loading setting a timeout
             setTimeout(function () {
                 $('body').addClass('loaded');
-            }, 3000);
+                $('body').removeClass('stop-scrolling');
+                window.scrollTo(0, 0);
+            }, 1000);
             const vid = document.getElementById("presentation");
             vid.onclick = function () {
                 typeWriter();
