@@ -2,24 +2,25 @@
     font-family: 'Poppins', sans-serif;
 }
 
-.sec-title{
-    position:relative;
-    z-index:1;
+.sec-title {
+    position: relative;
+    z-index: 1;
+    margin-top: 30px;
 }
 
 .sec-title .title{
     position:relative;
     font-size:18px;
     color:#34495e;
-    font-weight:700;
-    margin-bottom:12px;
+    font-weight:500;
+    margin-bottom:10px;
     text-transform:capitalize;
 }
 
 .sec-title .separator{
     position:relative;
     width:40px;
-    margin-top:16px !important;
+    margin-top:0px !important;
 }
 
 .sec-title .separator:before{
@@ -53,13 +54,13 @@
     background-color:#bd0000;
 }
 
-.sec-title h2{
+.sec-title subtitle-contacts{
+    font-weight: 600;
     position:relative;
     color:#34495e;
-    font-weight:700;
     font-size:36px;
-    line-height:1.2em;
-    margin-top:35px;
+    line-height:2em;
+    margin-top: 250px;
 }
 
 .sec-title .text{
@@ -141,20 +142,21 @@
 }
 
 .ch-maaz {
-    background-image: linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.3)),url("");
+    background-image: url("/assets/img/MaazPic.jpg");
 }
 .ch-xavier {
     background-image: url("/assets/img/XavierPic.jpg");
 }
 .ch-lina {
-    background-image: url("https://wallpapersmug.com/download/1366x768/f12332/books.jpg");
+    background-image: url("/assets/img/LinaPic.jpg");
 }
 .ch-adam {
-    background-image: linear-gradient(rgba(4,9,30,0.3),rgba(4,9,30,0.3)),url("https://wallpapersmug.com/download/1366x768/f12332/books.jpg");
+    background-image: url("/assets/img/AdamPic.jpg");
 }
 
     .ch-info h3 {
         color: #fff;
+        font-weight: bold;
         text-transform: uppercase;
         letter-spacing: 2px;
         font-size: 22px;
@@ -167,6 +169,7 @@
 
     .ch-info p {
         color: #fff;
+        font-weight: normal;
         padding: 10px 5px;
         font-style: italic;
         margin: 0 30px;
