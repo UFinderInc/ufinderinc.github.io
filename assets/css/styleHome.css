@@ -62,6 +62,22 @@ nav img{
 .nav-links ul li:hover::after{
     width: 100%
 }
+.sign-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 9px 12px;
+    font-size: 15px;
+    background: transparent;
+    cursor: pointer;
+}
+.sign-btn:hover{
+    border: 1px solid #fff;
+    background: #A7C7E7;
+    color: #fff;
+    transition: 1s;
+}
 .header {
     min-height: 100vh;
     width: 100%;
