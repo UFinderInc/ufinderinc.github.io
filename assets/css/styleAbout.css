@@ -1,0 +1,46 @@
+*{
+   padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+.about{
+    width: 100%;
+    padding: 78px 0px;
+    background-color: #f2f2f2;
+}
+.about img{
+    height: auto;
+    width: 500px;
+}
+.about-text{
+    width: 550px;
+}
+.PictureAboutPage{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h1{
+    color: rgba(52, 73, 94, 1);
+    font-size: 80px;
+    text-tranform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: rgba(52, 73, 94, 1);
+    font-size: 25px;
+    text-tranform: capitalize;
+    margin-bottom: 20px;
+    letter-spacing: 9px;
+
+}
+.about-text h10{
+    color: rgba(52, 73, 94, 1);
+    font-size: 25px;
+    text-tranform: capitalize;
+    margin-bottom: 20px;
+    letter-spacing: 9px;
