@@ -18,8 +18,29 @@ h1.features {
 }
 h2.features{
     padding-top: 3px;
-    font-size: 32px 
+    font-size: 32px;
+    display: inline-block;
+    position: relative;
+    color: white; 
 }
+h2.features:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 4px;
+    bottom: 0;
+    left: 0;
+    background-color: #A7C7E7;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.boxes:hover h2.features:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
 p.features {
     padding: 20px 0px 5px 0px;
     font-family: 'Poppins', sans-serif;
@@ -33,26 +54,11 @@ ul.features{
 ul.features li{
     padding-top: 7px;
 }
-#assignment_turned_in{
-    position:fixed;
-    left:485px;
-    top: 296px;
+.fas fa-school{
+    position:absolute;
+    top: 300px;
 }
-#announcement{
-    position:fixed;
-    left:310px;
-    top: 332px;
-}
-#description{
-    position:fixed;
-    left:470px;
-    top: 365px;
-}
-#label_important{
-    position:fixed;
-    left:413px;
-    top: 402px;
-}
+
 #featuresReqDatabase{
     border-style: solid;
     position: relative;
@@ -95,8 +101,25 @@ ul.features li{
 }
 
 .boxes:hover{
-    border-width: 10px;
+    border-width: 20px;
+    border-color: #A7C7E7;
 }
 
-
-
+#featuresList2Icons{
+    list-style-type: none;
+    position: absolute;
+    bottom: 18px;
+    text-align: center;
+}
+#featuresList2Icons li{
+    padding-top: 7px;
+}
+#featuresList1Icons{
+    list-style-type: none;
+    position: absolute;
+    bottom: 18px;
+    text-align: center;
+}
+#featuresList1Icons li{
+    padding-top: 7px;
+}
