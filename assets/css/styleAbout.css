@@ -1,7 +1,7 @@
 *{
-   padding: 0;
-    margin: 0;
+    padding: 0;
     font-family: 'Poppins', sans-serif;
+    margin: 2px;
     box-sizing: border-box;
 }
 .about{
@@ -11,10 +11,11 @@
 }
 .about img{
     height: auto;
+    margin-top: 50px;
     width: 500px;
 }
 .about-text{
-    width: 550px;
+    width: 600px;
 }
 .PictureAbout_0{
     width: 1450px;
@@ -35,19 +36,24 @@
     font-size: 25px;
     text-tranform: capitalize;
     margin-bottom: 20px;
-    letter-spacing: 9px;
+    letter-spacing: 5px;
+}
 
-}
-.about-text p{
-    color: #444444;
-}
 .about-text h10{
     color: rgba(52, 73, 94, 1);
     font-size: 25px;
+    font-weight: 650;
     text-tranform: capitalize;
     margin-bottom: 20px;
-    letter-spacing: 9px;
+    letter-spacing: 5px;
+}
 
 .about-text p{
     color: #444444;
+    margin-bottom: 21px;
+}
+
+.about-text p{
+    color: #444444;
+    margin-top: 21px;
 }
