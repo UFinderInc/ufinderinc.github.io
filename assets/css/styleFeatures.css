@@ -54,11 +54,6 @@ ul.features{
 ul.features li{
     padding-top: 7px;
 }
-.fas fa-school{
-    position:absolute;
-    top: 300px;
-}
-
 #featuresReqDatabase{
     border-style: solid;
     position: relative;
