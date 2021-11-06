@@ -102,15 +102,15 @@ body {
 }
 
 .card:nth-child(1):before {
-    background-image: url("./assets/img/dataCollection.jpg");
+    background-image: url("/assets/img/dataCollection.jpg");
 }
 
 .card:nth-child(2):before {
-    background-image: url("./assets/img/studentUsage.jpg");
+    background-image: url("/assets/img/studentUsage.jpg");
 }
 
 .card:nth-child(3):before {
-    background-image: url("./assets/img/commision.jpg");
+    background-image: url("/assets/img/commision.jpg");
 }
 
 .content {
