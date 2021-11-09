@@ -27,20 +27,85 @@ body {
 
 .title {
     color: white;
-    text-align: left;
     padding-top: 50px;
     padding-left: 90px;
-    font-size: 40px;
+    font-size: 69px;
+    text-align: center;
+    margin-right: 50%;
+}
 
+.text {
+    float: left;
+}
+
+.column {
+    float: left;
+    padding: 10px;
+}
+
+.left, .right {
+    width: 50%;
 }
 
 #product {
     padding-left: 90px;
-    margin-top: 15px;
+    margin-top: 50px;
     text-align: left;
     padding-right: 90px;
+    color: white;
 }
 
+#product p {
+    padding-top: 20px;
+    padding-bottom: 25px;
+    font-size: 26px;
+}
+
+.border {
+    border-right: #1c1c1c solid 1px;
+}
+
+.key-features hr {
+    height: 50px;
+    margin: auto -20px;
+    border: none;
+    border-left: 1px solid lightgray;
+}
+
+.key-features img {
+    padding-bottom: 10px;
+}
+
+.white {
+    filter: brightness(0) invert(1);
+}
+
+.key-features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.button {
+    height: 50px;
+    background-color: #1c1c1c;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.arrow::after {
+    content: '\2192';
+}
 /*
     iPhone
 */
@@ -62,7 +127,6 @@ body {
 .iphone-x .side {
     background: #1c1c1c;
     border-radius: 54px;
-    box-shadow: inset 0 0 2px 2px dimgrey, inset 0 0 0 6px #e2e3e9, 0px -1px 13px 9px rgba(255, 255, 255, 0.8) inset;
     height: 694px;
     padding: 15px 22px;
     width: 342px;
