@@ -96,19 +96,18 @@ ul.features li{
     transition-duration: 1s;
     transition: 1s;
 }
-
+.boxes{
+    background-color: #6e88a3;
+}
 .boxes:hover{
     border-width: 20px;
     border-color: #A7C7E7;   
-    background-color: lightcoral;
+    background-color: rgba(102, 119, 134,100);
 }
 .boxes:hover h2{
     text-shadow: 2px 2px black;   
 }
-img:hover{
-    height: 450;
-    width: 450;       
-}
+
 #featuresList2Icons{
     list-style-type: none;
     position: absolute;
@@ -129,11 +128,26 @@ img:hover{
 #featuresList1Icons li{
     padding-top: 7px;
 }
-#books{
+img:hover{
+    height: 450;
+    width: 450;       
+}
+#database{
     position:absolute;
-    height:280px;
-    width:280px;
-    top: 180px;
-    right: 130px;
+    width: 300px;
+    top: 0px;
+    right: -400px;
+}
+#algorithm{
+    position:absolute;
+    width: 325px;
+    top: 25px;
+    left: -475px;
     transition-duration: 1s;
+}
+#recommendation{
+    position: absolute;
+    width: 200px;
+    bottom: 0px;
+    right: -380px;
 }
