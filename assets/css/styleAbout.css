@@ -25,18 +25,18 @@
     align-items: center;
     justify-content: space-around;
 }
-.about-text h1{
+.about-text h1 {
     color: rgba(52, 73, 94, 1);
-    font-size: 80px;
+    font-size: 62px;
     text-tranform: capitalize;
     margin-bottom: 20px;
 }
-.about-text h5{
+.about-text h5 {
     color: rgba(52, 73, 94, 1);
     font-size: 25px;
+    font-weight: 650;
     text-tranform: capitalize;
     margin-bottom: 20px;
-    letter-spacing: 5px;
 }
 
 .about-text h10{
@@ -45,7 +45,6 @@
     font-weight: 650;
     text-tranform: capitalize;
     margin-bottom: 20px;
-    letter-spacing: 5px;
 }
 
 .about-text p{

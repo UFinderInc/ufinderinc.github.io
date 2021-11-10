@@ -3,31 +3,16 @@
     src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap");
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-}
-
-body {
-    margin: 0;
-    font-family: 'Poppins', sans-serif;
-    min-height: 100vh;
-    place-content: center;
-    text-align: center;
-    background-image: linear-gradient(rgba(52, 73, 94, 1), rgba(52, 73, 94, 1));
-}
-
-.header {
+.headerProd {
     width: 100%;
     background-position: center;
     background-size: cover;
     padding-top: 50px;
 }
 
-.title {
+.headerProd .title {
     color: white;
-    font-size: 69px;
+    font-size: 62px;
     text-align: center;
     /*margin-right: 50%;*/
 }
@@ -48,15 +33,17 @@ body {
 #product {
     padding-left: 90px;
     margin-top: 50px;
-    text-align: left;
+    text-align: center;
     padding-right: 90px;
     color: white;
 }
 
 #product p {
+    padding-left: 100px;
+    padding-right: 100px;
     padding-top: 20px;
     padding-bottom: 25px;
-    font-size: 26px;
+    font-size: 20px;
 }
 
 .border {
@@ -79,6 +66,8 @@ body {
 }
 
 .key-features {
+    padding-left: 300px;
+    padding-right: 300px;
     display: flex;
     padding-top: 60px;
     justify-content: space-around;
