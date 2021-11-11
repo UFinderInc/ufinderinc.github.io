@@ -134,12 +134,12 @@ body {
 }
 .animated-text h2::before {
     background: #34495e;
-    animation: typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) 6s forwards;
+    animation: typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) 3s forwards;
 }
 .animated-text h2::after {
     width: 0.1em;
     background: black;
-    animation: typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) 6s forwards, blink 700ms steps(var(--typewriterCharacters)) infinite;
+    animation: typewriter var(--typewriterSpeed) steps(var(--typewriterCharacters)) 3s forwards, blink 700ms steps(var(--typewriterCharacters)) infinite;
 }
 @keyframes typewriter {
     to{ left: 70%; }
